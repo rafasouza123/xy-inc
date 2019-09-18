@@ -4,13 +4,13 @@
 <meta charset="utf-8"/>
 <title>Listar pontos de interesse (POIs):</title>
 
-<link rel="stylesheet" type="text/css" href="/css/pois.css">
-<script src="/jquery/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/pois.css">
+<script src="jquery/jquery-3.4.1.min.js"></script>
 
 </head>
 <body>
 
-<div id="menu"><a href="/index.php">CoordinatesCompany</a></div>
+<div id="menu"><a href="index.php">CoordinatesCompany</a></div>
 
 <div id="center">
 
@@ -35,7 +35,7 @@ var html = "";
 	
 $.ajax({
 	type: "POST",
-	url: "/json/js_listar.php",
+	url: "json/js_listar.php",
 	data: {"myvar":"check",},
 
     success: function(data){

@@ -22,7 +22,7 @@ if(isset($_POST['max'])) {
 if($control == 3) {
 	
 $root = $_SERVER['DOCUMENT_ROOT']; 
-include("$root/config.php"); // inclui o arquivo de conexão com o banco.
+include("../config.php"); // inclui o arquivo de conexão com o banco.
 	
 $res = array();
 

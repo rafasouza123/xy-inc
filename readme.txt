@@ -2,6 +2,7 @@ Instalação:
 Edite o arquivo config.php com os dados do MySql.
 Execute em seu navegador o arquivo setup.php.
 
+exemplo: http://www.infocoisas.com/pois-php
 
 
 buscar.php:

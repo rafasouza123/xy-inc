@@ -26,7 +26,7 @@ $response = array();
 if($control == 3) { // todos os dados digitados, insere no banco.
 	
 	$root = $_SERVER['DOCUMENT_ROOT']; 
-	include("$root/config.php"); // inclui o arquivo de conexão com o banco.
+	include("../config.php"); // inclui o arquivo de conexão com o banco.
 	
 	$stmt = $mysqli_link->prepare("INSERT INTO pois (nome, coordx, coordy) VALUES (?,?,?)");
 	$stmt->bind_param('sii', $nome, $coordx, $coordy);

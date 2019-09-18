@@ -4,13 +4,13 @@
 <meta charset="utf-8"/>
 <title>POIs:</title>
 
-<link rel="stylesheet" type="text/css" href="/css/pois.css">
-<script src="/jquery/jquery-3.4.1.min"></script>
+<link rel="stylesheet" type="text/css" href="css/pois.css">
+<script src="jquery/jquery-3.4.1.min"></script>
 
 </head>
 <body>
 
-<div id="menu"><a href="/index.php">CoordinatesCompany</a></div>
+<div id="menu"><a href="index.php">CoordinatesCompany</a></div>
 
 <div id="center">
 

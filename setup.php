@@ -4,8 +4,8 @@
 <meta charset="utf-8"/>
 <title>Cadastrar pontos de interesse (POIs):</title>
 
-<link rel="stylesheet" type="text/css" href="/pois.css">
-<script src="/jquery/jquery-3.4.1.min"></script>
+<link rel="stylesheet" type="text/css" href="pois.css">
+<script src="jquery/jquery-3.4.1.min"></script>
 
 </head>
 <body>
@@ -17,7 +17,7 @@
 <?php
 
 $root = $_SERVER['DOCUMENT_ROOT']; 
-include("$root/config.php"); // inclui o arquivo de conexão com o banco.
+include("config.php"); // inclui o arquivo de conexão com o banco.
 
 // sql da database
 

@@ -4,13 +4,13 @@
 <meta charset="utf-8"/>
 <title>Cadastrar pontos de interesse (POIs):</title>
 
-<link rel="stylesheet" type="text/css" href="/css/pois.css">
-<script src="/jquery/jquery-3.4.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/pois.css">
+<script src="jquery/jquery-3.4.1.min.js"></script>
 
 </head>
 <body>
 
-<div id="menu"><a href="/index.php">CoordinatesCompany</a></div>
+<div id="menu"><a href="index.php">CoordinatesCompany</a></div>
 
 <div id="center">
 
@@ -37,7 +37,7 @@ $('#submit').click(function (e) {
 	var html = "";
 	
     $.ajax({
-      url: '/json/js_cadastrar.php',
+      url: 'json/js_cadastrar.php',
       type: 'POST',
       cache: false,
       data: form.serialize(),
